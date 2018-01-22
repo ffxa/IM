@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <Resource name="jdbc/DB"
+    auth="Container"
+    type="javax.sql.DataSource"
+    testOnReturn="false"
+    validationQuery="SELECT 1"
+    validationInterval="30000"
+    timeBetweenEvictionRunsMillis="30000"
+    maxActive="100"
+    minIdle="10"
+    maxWait="10000"
+    initialSize="10"
+    minEvictableIdleTimeMillis="30000"
+    jmxEnabled="true"
+    username="admin"
+    password="admin"
+    verifyServerCertificate = "false"
+    useSSL="true"
+    driverClassName="com.mysql.jdbc.Driver"
+    url="jdbc:mysql://localhost:3306/jarsoft_test_task?verifyServerCertificate=false&amp;useSSL=true"/>
+</Context>
